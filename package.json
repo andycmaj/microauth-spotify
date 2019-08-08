@@ -1,0 +1,34 @@
+{
+  "name": "microauth-spotify",
+  "version": "0.0.2",
+  "description": "Spotify oauth for micro",
+  "main": "index.js",
+  "scripts": {
+    "example": "micro example.js",
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andycmaj/microauth-spotify"
+  },
+  "author": "Andy Cunningham",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "6.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "xo": "^0.24.0"
+  },
+  "peerDependencies": {
+    "micro": "^9.3.4"
+  },
+  "dependencies": {
+    "micro-redirect": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "uuid": "^3.3.2"
+  },
+  "xo": {
+    "spaces": 2,
+    "extends": "prettier"
+  }
+}
