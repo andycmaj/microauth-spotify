@@ -2,7 +2,6 @@
 
 const querystring = require('querystring');
 const url = require('url');
-const google = require('googleapis');
 const uuid = require('uuid');
 const redirect = require('micro-redirect');
 
