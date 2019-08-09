@@ -4,6 +4,7 @@ const querystring = require('querystring');
 const url = require('url');
 const uuid = require('uuid');
 const redirect = require('micro-redirect');
+const rp = require('request-promise');
 
 const provider = 'spotify';
 
