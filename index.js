@@ -110,4 +110,4 @@ const microAuthSpotify = ({
   };
 };
 
-export default microAuthSpotify;
+module.exports = microAuthSpotify;
